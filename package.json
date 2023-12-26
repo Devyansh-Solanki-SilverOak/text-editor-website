@@ -2,7 +2,7 @@
   "name": "project-2",
   "homepage": "https://Devyansh-Solanki-SilverOak.github.io/text-editor-website",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
