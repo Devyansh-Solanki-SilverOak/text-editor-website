@@ -57,12 +57,12 @@ function App() {
 
   return (
     <>
-      <Router>
+      <Router basename="/text-editor-website">
 
           <Navbar mode={mode} modeName={modeName} toggleMode={toggleMode} toggleTitle={toggleTitle} alert={alert}></Navbar>
           <Alert alert={alert} removeAlert={removeAlert}></Alert>
           <Routes>
-            <Route exact path="/" element={<TextForm mode={mode} heading="Enter the text to analyze below" showAlert={showAlert}></TextForm>} />
+            <Route exact path="/text-editor-website" element={<TextForm mode={mode} heading="Enter the text to analyze below" showAlert={showAlert}></TextForm>} />
             <Route exact path="/about" element={<About mode={mode}></About>} />
           </Routes>
 
